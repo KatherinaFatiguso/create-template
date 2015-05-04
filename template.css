@@ -1,0 +1,63 @@
+/*this is the css file for template.html*/
+
+
+/*On Desktop where min width is 992px
+@media (min-width: 992px) {*/
+
+.nav {
+  /*background-color: #e3dfdf;*/
+  min-height: 100px;
+}
+.row {
+  margin-top: 15px;
+}
+.dark-grey {
+  display: block;
+  background-color: #c4c4c4;
+  margin-top: 5px;
+}
+.logo{
+  display: block;
+  background-color: #c4c4c4;
+  height:50px;
+  width:50px;
+  border-radius: 50%;
+  margin:0 auto;
+}
+
+header{
+  background-color: #e3dfdf;
+}
+
+.frame-md{
+  display: block;
+  min-height: 150px;
+  background-color: #c4c4c4;
+}
+
+.frame-xs{
+  display: block;
+  height: 150px;
+  width: 200px;
+  background-color: #c4c4c4;
+  background-position: 50%;/*this one doesn't position the frames to the center*/
+}
+
+.line-height {
+  line-height: 50%;
+}
+
+footer {
+  background-color: #e3dfdf;
+}
+
+/*} end of media enquiry for desktop size*/
+/*.absolute {
+  position:absolute;
+}
+
+.absolute-top {
+    top:0;
+    left:50%;
+    margin-left:-100px;
+}*/
